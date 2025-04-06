@@ -1,6 +1,6 @@
 Hi There, 
 
- your welcom here...!!
+ your welcom here...!! <view doc in code>
 
 This is mini project hosted in docker, here i've used 
 Project Highlights:
@@ -83,6 +83,24 @@ VALUES (26, 'B SURYA PRAKASH REDDY', 30, 'Bangalore', '2025-04-06');
 Delete a Column in a Table:
 
 ALTER TABLE users DROP COLUMN age;
+
+----------------------------------------------------------------------------------------------
+
+ Mini project, is able to see user list in url level only, and you need to enable 3000,5000,80,22,3306 ports in Security groups, in docker-compose yaml i have mention all requiremtns to run our application. 
+
+ create a new jenkins, add admin credentials and take my groovy ../jenkins.groovy. make sure in jenkins you have to install Docker, docker-compose, jdk, jenkins, mvn, python and all requiremnts. Make sure jdk 17 latest version we need to use in jenkins creation. Through old version we are getting error.
+
+ clone project in your local or use my(our) repo, make sure cloning location should be same mention in build steps, once completed, please run your jenkins job, and verfiy all conatiners are created are not. 
+
+ check with IP:3000 && IP:5000 && IP:5000/user/ID
+
+ Make sure data you need to create in db container, what your mention in table data, we can able to GET in IP:5000/user/ID
+
+
+
+if you have questions, please ping me 😊
+
+                        Thank You - Surya !! 🤝
 
 
 
