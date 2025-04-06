@@ -45,44 +45,44 @@ CREATE TABLE users (
 
 To view Table data:
 
-SELECT * FROM users;
+           SELECT * FROM users;
 
 
 Delete a column in table:
 
-ALTER TABLE users DROP COLUMN age;
+           ALTER TABLE users DROP COLUMN age;
 
 
 To view all table list:
 
-SHOW TABLES;
+           SHOW TABLES;
 
 
 Add a new id and details:
 
-ALTER TABLE users ADD COLUMN lastworkingdate DATE;
+           ALTER TABLE users ADD COLUMN lastworkingdate DATE;
 
 Aadd new row in table:
 
-INSERT INTO users (id, name, age, location, lastworkingdate)
-VALUES (201300, 'B SURYA PRAKASH REDDY', 28, 'TCS-HYDERABAD', '2025-04-01');
+          INSERT INTO users (id, name, age, location, lastworkingdate)
+          VALUES (201300, 'B SURYA PRAKASH REDDY', 28, 'TCS-HYDERABAD', '2025-04-01');
 
 Display table data with ID:
 
-SELECT * FROM users WHERE id = 201300;
+         SELECT * FROM users WHERE id = 201300;
 
 Delete ID in table:
 
-DELETE FROM users WHERE id=201300;
+         DELETE FROM users WHERE id=201300;
 
 To update an existing user:
 
-INSERT INTO users (id, name, age, place, lastworkingdate)
-VALUES (26, 'B SURYA PRAKASH REDDY', 30, 'Bangalore', '2025-04-06');
+          INSERT INTO users (id, name, age, place, lastworkingdate)
+          VALUES (26, 'B SURYA PRAKASH REDDY', 30, 'Bangalore', '2025-04-06');
 
 Delete a Column in a Table:
 
-ALTER TABLE users DROP COLUMN age;
+          ALTER TABLE users DROP COLUMN age;
 
 ----------------------------------------------------------------------------------------------
 
