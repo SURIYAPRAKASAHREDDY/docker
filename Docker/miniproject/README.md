@@ -34,13 +34,13 @@ SHOW TABLES;
 
 Create a TABLE:
 
-CREATE TABLE users (
-    id INT PRIMARY KEY,
-    name VARCHAR(50),
-    age INT,
-    location VARCHAR(100),
-    lastworkingdate Date
-);
+         CREATE TABLE users (
+               id INT PRIMARY KEY,
+               name VARCHAR(50),
+               age INT,
+               location VARCHAR(100),
+               lastworkingdate Date
+           );
 
 
 To view Table data:
