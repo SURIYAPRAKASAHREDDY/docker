@@ -14,15 +14,15 @@ Commands used:
 
 Docker-compose commands 
 
-> docker-compose up
-> docker-compose down
-> docker exec -it <docker container id> bash
-> docker logs <container id>
-> docker ps -a
-> docker-compose build
-> docker container ls
-> docker exec -it miniproject-db-1 mysql -u root -p {Login to mysql conatiner}
-> docker exec -it miniproject-db-1 mysql -uroot -prootpassword
+       > docker-compose up
+       > docker-compose down
+       > docker exec -it <docker container id> bash
+       > docker logs <container id>
+       > docker ps -a
+       > docker-compose build
+       > docker container ls
+       > docker exec -it miniproject-db-1 mysql -u root -p {Login to mysql conatiner}
+       > docker exec -it miniproject-db-1 mysql -uroot -prootpassword
 
 
 !!---------- MYSQL -------------------------------!!
