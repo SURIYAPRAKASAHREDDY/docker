@@ -10,7 +10,7 @@ Project Highlights:
  🔹 hashtag#Orchestration: All services are connected and running with docker-compose
 All of them are containerized using Docker and orchestrated together using Docker Compose.
 
-#Commands used:
+Commands used:
 
 Docker-compose commands 
 
