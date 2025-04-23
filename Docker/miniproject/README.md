@@ -12,6 +12,15 @@ All of them are containerized using Docker and orchestrated together using Docke
 
 Commands used:
 
+      > sudo apt update && sudo apt upgrade -y
+      > curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+      > sudo apt update
+      > sudo apt install docker-ce docker-ce-cli containerd.io -y
+      > sudo systemctl status docker
+      > sudo usermod -aG docker $USER
+
+     
+
 Docker-compose commands 
 
        > docker-compose up
